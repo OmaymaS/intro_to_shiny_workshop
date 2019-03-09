@@ -1,0 +1,457 @@
+country,country_code,continent,sub_region,year,human_development_index,corruption_perception_index,population,life_exp,gdp_per_capita
+Afghanistan,AFG,Asia,Southern Asia,2012,0.47,8,29726803,62.086,648.5110696
+Albania,ALB,Europe,Southern Europe,2012,0.759,33,2880667,77.389,4247.614342
+Algeria,DZA,Africa,Northern Africa,2012,0.737,34,37439427,75.187,5565.134521
+Angola,AGO,Africa,Sub-Saharan Africa,2012,0.523,22,22685632,59.77,5102.489969
+Argentina,ARG,Americas,Latin America and the Caribbean,2012,0.823,35,42095224,75.926,12969.70712
+Armenia,ARM,Asia,Western Asia,2012,0.736,34,2978339,73.814,3684.80481
+Australia,AUS,Oceania,Australia and New Zealand,2012,0.933,85,22911375,82.04634146,67864.68986
+Austria,AUT,Europe,Western Europe,2012,0.887,69,8455477,80.93658537,48567.69529
+Azerbaijan,AZE,Asia,Western Asia,2012,0.745,27,9361477,71.478,7496.294648
+Bahrain,BHR,Asia,Western Asia,2012,0.815,51,1333577,76.341,23649.36661
+Bangladesh,BGD,Asia,Southern Asia,2012,0.565,26,155257387,71.039,856.342857
+Barbados,BRB,Americas,Latin America and the Caribbean,2012,0.792,76,281580,75.292,16536.21464
+Belarus,BLR,Europe,Eastern Europe,2012,0.796,31,9490962,71.96585366,6940.159254
+Belgium,BEL,Europe,Western Europe,2012,0.889,75,11079521,80.38536585,44740.58325
+Belize,BLZ,Americas,Latin America and the Caribbean,2012,0.706,NA,336707,69.798,4644.559565
+Benin,BEN,Africa,Sub-Saharan Africa,2012,0.466,36,10049792,59.855,837.9505001
+Bhutan,BTN,Asia,Southern Asia,2012,0.589,63,743711,68.639,2422.008016
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2012,0.735,42,3828419,76.223,4722.013403
+Botswana,BWA,Africa,Sub-Saharan Africa,2012,0.693,65,2132822,62.425,6901.971971
+Brazil,BRA,Americas,Latin America and the Caribbean,2012,0.734,43,202401584,74.488,12291.46685
+Bulgaria,BGR,Europe,Eastern Europe,2012,0.781,41,7303741,74.31463415,7378.02473
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2012,0.392,38,16590813,58.377,673.8228182
+Burundi,BDI,Africa,Sub-Saharan Africa,2012,0.398,19,10124572,55.807,250.3627366
+Cambodia,KHM,Asia,South-eastern Asia,2012,0.546,22,14832255,67.466,951.1112311
+Cameroon,CMR,Africa,Sub-Saharan Africa,2012,0.501,26,21659488,56.241,1380.509848
+Canada,CAN,Americas,Northern America,2012,0.909,84,34868151,81.5835122,52496.69487
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2012,0.37,26,4619500,49.041,483.1860932
+Chad,TCD,Africa,Sub-Saharan Africa,2012,0.387,19,12715465,51.3,973.4702574
+Chile,CHL,Americas,Latin America and the Caribbean,2012,0.831,72,17388437,78.758,15431.90293
+China,CHN,Asia,Eastern Asia,2012,0.713,39,1355386952,75.602,6337.883323
+Colombia,COL,Americas,Latin America and the Caribbean,2012,0.712,36,46881018,73.673,7904.495789
+Comoros,COM,Africa,Sub-Saharan Africa,2012,0.49,28,733661,62.596,1403.434335
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2012,0.762,54,4654148,79.077,9985.36959
+Croatia,HRV,Europe,Southern Europe,2012,0.817,46,4287015,76.92439024,13250.75712
+Cuba,CUB,Americas,Latin America and the Caribbean,2012,0.773,48,11342631,79.167,6425.941119
+Cyprus,CYP,Asia,Western Asia,2012,0.85,66,1129303,79.81,28984.91481
+Denmark,DNK,Europe,Northern Europe,2012,0.924,90,5600972,80.05121951,58507.50021
+Djibouti,DJI,Africa,Sub-Saharan Africa,2012,0.464,36,853069,61.31,1536.150685
+Dominica,DMA,Americas,Latin America and the Caribbean,2012,0.721,58,71685,NA,6745.849758
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2012,0.709,32,10155036,73.098,5973.222937
+Ecuador,ECU,Americas,Latin America and the Caribbean,2012,0.725,32,15419493,75.449,5702.104313
+El Salvador,SLV,Americas,Latin America and the Caribbean,2012,0.675,38,6072233,72.479,3437.599638
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2012,0.586,20,773729,56.601,21557.65187
+Eritrea,ERI,Africa,Sub-Saharan Africa,2012,0.414,25,4892233,63.22,NA
+Estonia,EST,Europe,Northern Europe,2012,0.856,64,1324040,76.32682927,17421.89022
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2012,0.427,33,92191211,63.275,468.5067249
+Fiji,FJI,Oceania,Melanesia,2012,0.719,NA,874158,69.625,4546.738504
+Finland,FIN,Europe,Northern Europe,2012,0.887,90,5424644,80.62682927,47415.55987
+France,FRA,Europe,Western Europe,2012,0.887,71,63561798,81.96829268,40874.71596
+Gabon,GAB,Africa,Sub-Saharan Africa,2012,0.678,35,1613489,64.119,9774.181017
+Georgia,GEO,Asia,Western Asia,2012,0.755,52,4138920,72.742,4142.869176
+Germany,DEU,Europe,Western Europe,2012,0.919,79,80477952,80.53902439,44065.24891
+Ghana,GHA,Africa,Sub-Saharan Africa,2012,0.57,45,25544565,61.561,1629.800222
+Greece,GRC,Europe,Southern Europe,2012,0.86,36,11109662,80.63414634,22242.68193
+Grenada,GRD,Americas,Latin America and the Caribbean,2012,0.746,NA,105476,73.044,7583.188055
+Guatemala,GTM,Americas,Latin America and the Caribbean,2012,0.611,33,15368759,72.227,3299.605536
+Guinea,GIN,Africa,Sub-Saharan Africa,2012,0.406,24,11628767,57.782,677.0434993
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2012,0.415,25,1714620,55.807,603.9339835
+Guyana,GUY,Americas,Latin America and the Caribbean,2012,0.633,28,758410,66.216,3799.753364
+Haiti,HTI,Americas,Latin America and the Caribbean,2012,0.483,19,10288828,62.078,766.8437623
+Honduras,HND,Americas,Latin America and the Caribbean,2012,0.614,28,7736131,72.805,2178.388555
+Hungary,HUN,Europe,Eastern Europe,2012,0.824,55,9958334,75.06341463,12888.30459
+Iceland,ISL,Europe,Northern Europe,2012,0.907,82,323407,82.91707317,44562.81802
+India,IND,Asia,Southern Asia,2012,0.599,36,1263589639,67.377,1446.98541
+Indonesia,IDN,Asia,South-eastern Asia,2012,0.677,32,248037853,68.509,3687.953996
+Iraq,IRQ,Asia,Western Asia,2012,0.659,18,32957622,68.963,6651.12242
+Ireland,IRL,Europe,Northern Europe,2012,0.902,69,4667868,80.84634146,49042.33825
+Israel,ISR,Asia,Western Asia,2012,0.891,60,7694507,81.70487805,32525.95659
+Italy,ITA,Europe,Southern Europe,2012,0.876,42,59737717,82.23902439,34814.12512
+Jamaica,JAM,Americas,Latin America and the Caribbean,2012,0.727,38,2762965,75.334,5208.996089
+Japan,JPN,Asia,Eastern Asia,2012,0.894,74,127139821,83.09609756,48603.47665
+Jordan,JOR,Asia,Western Asia,2012,0.737,48,6994451,73.729,3870.753211
+Kazakhstan,KAZ,Asia,Central Asia,2012,0.782,28,16821455,69.61,12386.7
+Kenya,KEN,Africa,Sub-Saharan Africa,2012,0.541,27,42542978,64.907,1155.020583
+Kiribati,KIR,Oceania,Micronesia,2012,0.589,NA,106620,65.623,1784.428931
+Kuwait,KWT,Asia,Western Asia,2012,0.796,44,3419581,74.217,51264.07134
+Latvia,LVA,Europe,Northern Europe,2012,0.814,49,2037090,73.77804878,13822.80559
+Lebanon,LBN,Asia,Western Asia,2012,0.766,30,4924257,78.86,8959.258471
+Lesotho,LSO,Africa,Sub-Saharan Africa,2012,0.484,45,2057331,52.158,1281.611508
+Liberia,LBR,Africa,Sub-Saharan Africa,2012,0.419,41,4190155,60.615,650.7136207
+Libya,LBY,Africa,Northern Africa,2012,0.735,21,6283403,71.574,13209.14078
+Lithuania,LTU,Europe,Northern Europe,2012,0.834,54,3016496,73.86341463,14341.18163
+Luxembourg,LUX,Europe,Western Europe,2012,0.892,80,532479,81.39268293,106749.0136
+Madagascar,MDG,Africa,Sub-Saharan Africa,2012,0.508,32,22293720,64.28,443.9061001
+Malawi,MWI,Africa,Sub-Saharan Africa,2012,0.459,37,15700436,59.927,374.5029326
+Malaysia,MYS,Asia,South-eastern Asia,2012,0.779,49,29021940,74.606,10779.50751
+Maldives,MDV,Asia,Southern Asia,2012,0.683,NA,344817,76.401,7473.195629
+Mali,MLI,Africa,Sub-Saharan Africa,2012,0.421,34,16112333,56.122,777.3476868
+Malta,MLT,Europe,Southern Europe,2012,0.828,57,415596,80.74634146,21916.97221
+Mauritania,MRT,Africa,Sub-Saharan Africa,2012,0.501,31,3777067,62.492,1365.777822
+Mauritius,MUS,Africa,Sub-Saharan Africa,2012,0.765,57,1258335,73.86341463,9291.227619
+Mexico,MEX,Americas,Latin America and the Caribbean,2012,0.753,34,122070963,76.412,9940.468561
+Mongolia,MNG,Asia,Eastern Asia,2012,0.72,36,2808339,68.215,4368.082248
+Montenegro,MNE,Europe,Southern Europe,2012,0.799,41,623864,76.089,6586.719209
+Morocco,MAR,Africa,Northern Africa,2012,0.634,37,32984190,74.717,2904.746728
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2012,0.405,31,25732928,55.878,566.051387
+Myanmar,MMR,Asia,South-eastern Asia,2012,0.54,15,52543841,65.805,1175.561788
+Namibia,NAM,Africa,Sub-Saharan Africa,2012,0.625,48,2291645,60.815,5749.404752
+Nepal,NPL,Asia,Southern Asia,2012,0.545,27,27500515,68.732,681.7925868
+Netherlands,NLD,Europe,Western Europe,2012,0.922,84,16749318,81.10487805,49474.70561
+New Zealand,NZL,Oceania,Australia and New Zealand,2012,0.908,90,4435883,81.15609756,39970.25624
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2012,0.63,29,5877034,74.319,1792.038045
+Niger,NER,Africa,Sub-Saharan Africa,2012,0.341,33,17635782,58.16,391.5182495
+Nigeria,NGA,Africa,Sub-Saharan Africa,2012,0.514,27,168240403,51.699,2745.866752
+Norway,NOR,Europe,Northern Europe,2012,0.942,85,5018367,81.45121951,101668.1707
+Oman,OMN,Asia,Western Asia,2012,0.796,47,3545192,76.141,22134.80137
+Pakistan,PAK,Asia,Southern Asia,2012,0.538,27,177392252,65.686,1261.208967
+Panama,PAN,Americas,Latin America and the Caribbean,2012,0.773,38,3743761,77.216,10715.71661
+Papua New Guinea,PNG,Oceania,Melanesia,2012,0.506,25,7154870,64.937,2865.873252
+Paraguay,PRY,Americas,Latin America and the Caribbean,2012,0.679,25,6379162,72.638,5217.445724
+Peru,PER,Americas,Latin America and the Caribbean,2012,0.731,38,30158768,74.088,6387.785281
+Philippines,PHL,Asia,South-eastern Asia,2012,0.671,34,96017322,68.553,2581.818548
+Poland,POL,Europe,Eastern Europe,2012,0.838,58,38609486,76.74634146,13143.52122
+Portugal,PRT,Europe,Southern Europe,2012,0.827,63,10515016,80.37317073,20577.40264
+Qatar,QAT,Asia,Western Asia,2012,0.843,68,2015624,77.59,88564.82298
+Romania,ROU,Europe,Eastern Europe,2012,0.794,44,19944954,74.41219512,8535.046876
+Rwanda,RWA,Africa,Sub-Saharan Africa,2012,0.485,53,10817350,64.911,679.8607504
+Samoa,WSM,Oceania,Polynesia,2012,0.7,NA,188901,73.875,4234.640751
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2012,0.559,42,178484,66.125,1380.949959
+Saudi Arabia,SAU,Asia,Western Asia,2012,0.83,44,29496047,73.896,25303.09462
+Senegal,SEN,Africa,Sub-Saharan Africa,2012,0.474,36,13780108,65.393,1300.791844
+Serbia,SRB,Europe,Southern Europe,2012,0.766,39,8982578,74.83658537,5659.380204
+Seychelles,SYC,Africa,Sub-Saharan Africa,2012,0.762,52,94524,74.27560976,12006.64168
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2012,0.413,31,6043157,49.762,561.8984239
+Singapore,SGP,Asia,South-eastern Asia,2012,0.92,87,5299524,81.99512195,54715.69483
+Slovenia,SVN,Europe,Southern Europe,2012,0.878,61,2062881,80.12439024,22532.43564
+Solomon Islands,SLB,Oceania,Melanesia,2012,0.509,NA,549162,69.4,1928.956751
+South Africa,ZAF,Africa,Sub-Saharan Africa,2012,0.652,43,52837274,58.545,7478.136578
+South Sudan,SSD,Africa,Sub-Saharan Africa,2012,0.417,NA,10980623,54.756,1041.459694
+Spain,ESP,Europe,Southern Europe,2012,0.874,65,46637082,82.42682927,28563.85904
+Sri Lanka,LKA,Asia,Southern Asia,2012,0.757,40,20421862,74.593,3350.521876
+Sudan,SDN,Africa,Northern Africa,2012,0.478,13,37712420,63.384,1892.894352
+Suriname,SUR,Americas,Latin America and the Caribbean,2012,0.719,37,528535,70.79,9232.505153
+Sweden,SWE,Europe,Northern Europe,2012,0.904,88,9543457,81.70487805,57134.07707
+Switzerland,CHE,Europe,Western Europe,2012,0.934,86,8022628,82.69756098,83538.23008
+Tajikistan,TJK,Asia,Central Asia,2012,0.617,22,7930929,70.234,954.7205253
+Thailand,THA,Asia,South-eastern Asia,2012,0.733,37,67164130,74.446,5859.887644
+Timor-Leste,TLS,Asia,South-eastern Asia,2012,0.62,33,1102076,67.805,5766.969812
+Togo,TGO,Africa,Sub-Saharan Africa,2012,0.47,30,6745581,58.668,564.6971486
+Tonga,TON,Oceania,Polynesia,2012,0.718,NA,104769,72.446,4500.750362
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2012,0.773,39,1341579,70.118,19083.21481
+Tunisia,TUN,Africa,Northern Africa,2012,0.72,41,10881450,75.023,4137.54814
+Turkey,TUR,Asia,Western Asia,2012,0.754,49,74849187,74.711,11720.31301
+Turkmenistan,TKM,Asia,Central Asia,2012,0.678,17,5172941,67.167,6675.262954
+Uganda,UGA,Africa,Sub-Saharan Africa,2012,0.478,29,35400620,58.347,636.6382045
+Ukraine,UKR,Europe,Eastern Europe,2012,0.744,26,45319949,70.94414634,3855.42128
+United Arab Emirates,ARE,Asia,Western Asia,2012,0.829,68,8952542,76.648,42086.68995
+Uruguay,URY,Americas,Latin America and the Caribbean,2012,0.788,72,3396753,76.89,15092.06819
+Uzbekistan,UZB,Asia,Central Asia,2012,0.681,17,28592451,70.604,1740.468298
+Vanuatu,VUT,Oceania,Melanesia,2012,0.591,NA,247498,71.241,3158.58688
+Zambia,ZMB,Africa,Sub-Saharan Africa,2012,0.565,37,14786581,59.011,1734.930612
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2012,0.488,20,14565482,56.516,1163.418689
+Afghanistan,AFG,Asia,Southern Asia,2013,0.476,8,30682500,62.494,647.9664605
+Albania,ALB,Europe,Southern Europe,2013,0.761,31,2883281,77.702,4413.082887
+Algeria,DZA,Africa,Northern Africa,2013,0.741,36,38186135,75.418,5471.123389
+Angola,AGO,Africa,Sub-Saharan Africa,2013,0.527,23,23448202,60.373,5258.407376
+Argentina,ARG,Americas,Latin America and the Caribbean,2013,0.825,34,42538304,76.089,12976.63642
+Armenia,ARM,Asia,Western Asia,2013,0.739,36,2992192,74.044,3843.591213
+Australia,AUS,Oceania,Australia and New Zealand,2013,0.936,81,23270465,82.14878049,67990.29003
+Austria,AUT,Europe,Western Europe,2013,0.892,69,8486962,81.13658537,50716.70871
+Azerbaijan,AZE,Asia,Western Asia,2013,0.752,28,9497496,71.656,7875.756953
+Bahrain,BHR,Asia,Western Asia,2013,0.82,48,1349427,76.482,24737.17178
+Bangladesh,BGD,Asia,Southern Asia,2013,0.57,27,157157394,71.431,951.8894535
+Barbados,BRB,Americas,Latin America and the Caribbean,2013,0.793,75,282503,75.448,16326.91348
+Belarus,BLR,Europe,Eastern Europe,2013,0.796,29,9497294,72.47073171,7978.872615
+Belgium,BEL,Europe,Western Europe,2013,0.89,75,11153122,80.58780488,46582.66955
+Belize,BLZ,Americas,Latin America and the Caribbean,2013,0.705,NA,344193,69.895,4673.245037
+Benin,BEN,Africa,Sub-Saharan Africa,2013,0.475,36,10322232,60.113,915.3281554
+Bhutan,BTN,Asia,Southern Asia,2013,0.596,63,754637,69.038,2350.882889
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2013,0.742,42,3823533,76.39,5042.582213
+Botswana,BWA,Africa,Sub-Saharan Africa,2013,0.697,64,2176510,63.63,7001.034418
+Brazil,BRA,Americas,Latin America and the Caribbean,2013,0.747,42,204259377,74.777,12216.90446
+Bulgaria,BGR,Europe,Eastern Europe,2013,0.787,41,7252539,74.86097561,7646.839866
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2013,0.398,38,17084554,58.942,699.781537
+Burundi,BDI,Africa,Sub-Saharan Africa,2013,0.404,21,10465959,56.259,255.372691
+Cambodia,KHM,Asia,South-eastern Asia,2013,0.553,20,15078564,67.868,1013.665952
+Cameroon,CMR,Africa,Sub-Saharan Africa,2013,0.507,25,22211166,56.665,1493.746567
+Canada,CAN,Americas,Northern America,2013,0.912,81,35230612,81.77204878,52418.31506
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2013,0.345,25,4710678,49.825,337.484979
+Chad,TCD,Africa,Sub-Saharan Africa,2013,0.39,19,13145788,51.778,986.0103177
+Chile,CHL,Americas,Latin America and the Caribbean,2013,0.841,71,17575833,78.931,15941.39722
+China,CHN,Asia,Eastern Asia,2013,0.723,40,1362514260,75.769,7077.770765
+Colombia,COL,Americas,Latin America and the Caribbean,2013,0.72,36,47342363,73.847,8065.960376
+Comoros,COM,Africa,Sub-Saharan Africa,2013,0.497,28,751697,62.923,1504.931007
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2013,0.768,53,4706433,79.254,10569.66631
+Croatia,HRV,Europe,Southern Europe,2013,0.82,48,4271497,77.12682927,13663.51913
+Cuba,CUB,Americas,Latin America and the Caribbean,2013,0.772,46,11362505,79.282,6760.15344
+Cyprus,CYP,Asia,Western Asia,2013,0.85,63,1141652,79.995,27942.31667
+Denmark,DNK,Europe,Northern Europe,2013,0.926,91,5624293,80.3,61191.19263
+Djibouti,DJI,Africa,Sub-Saharan Africa,2013,0.467,36,864554,61.691,1477.363042
+Dominica,DMA,Americas,Latin America and the Caribbean,2013,0.724,58,72005,NA,6933.413648
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2013,0.712,29,10281408,73.292,6094.734904
+Ecuador,ECU,Americas,Latin America and the Caribbean,2013,0.737,35,15661312,75.661,6074.090829
+El Salvador,SLV,Americas,Latin America and the Caribbean,2013,0.676,38,6089644,72.753,3515.947201
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2013,0.582,19,797082,56.905,20246.99308
+Eritrea,ERI,Africa,Sub-Saharan Africa,2013,0.416,20,4998824,63.703,NA
+Estonia,EST,Europe,Northern Europe,2013,0.86,68,1320050,77.14146341,19072.23852
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2013,0.435,33,94558374,63.952,502.1535887
+Fiji,FJI,Oceania,Melanesia,2013,0.727,NA,880487,69.796,4763.068956
+Finland,FIN,Europe,Northern Europe,2013,0.89,89,5453061,80.97560976,49638.07713
+France,FRA,Europe,Western Europe,2013,0.89,71,63844529,82.2195122,42592.95152
+Gabon,GAB,Africa,Sub-Saharan Africa,2013,0.687,34,1650351,64.686,9679.758914
+Georgia,GEO,Asia,Western Asia,2013,0.759,49,4082727,72.832,4274.376865
+Germany,DEU,Europe,Western Europe,2013,0.92,78,80565861,80.4902439,46530.91143
+Ghana,GHA,Africa,Sub-Saharan Africa,2013,0.576,46,26164432,61.86,2401.754122
+Greece,GRC,Europe,Southern Europe,2013,0.862,40,11055164,81.28536585,21874.8195
+Grenada,GRD,Americas,Latin America and the Caribbean,2013,0.749,NA,105902,73.227,7956.076548
+Guatemala,GTM,Americas,Latin America and the Caribbean,2013,0.614,29,15690793,72.562,3452.834671
+Guinea,GIN,Africa,Sub-Saharan Africa,2013,0.412,24,11948726,58.301,726.0893942
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2013,0.419,19,1757138,56.2,621.9406736
+Guyana,GUY,Americas,Latin America and the Caribbean,2013,0.636,27,761033,66.318,3941.114661
+Haiti,HTI,Americas,Latin America and the Caribbean,2013,0.487,19,10431249,62.432,810.2656073
+Honduras,HND,Americas,Latin America and the Caribbean,2013,0.618,26,7849059,72.99,2136.771718
+Hungary,HUN,Europe,Eastern Europe,2013,0.834,54,9924507,75.56585366,13667.70279
+Iceland,ISL,Europe,Northern Europe,2013,0.915,78,325392,82.06097561,48023.62691
+India,IND,Asia,Southern Asia,2013,0.607,36,1279498874,67.714,1452.195373
+Indonesia,IDN,Asia,South-eastern Asia,2013,0.682,32,251268276,68.684,3620.663981
+Iraq,IRQ,Asia,Western Asia,2013,0.658,16,34107366,69.219,6925.224046
+Ireland,IRL,Europe,Northern Europe,2013,0.91,72,4671263,81,51773.11137
+Israel,ISR,Asia,Western Asia,2013,0.895,61,7817818,82.05609756,36291.23211
+Italy,ITA,Europe,Southern Europe,2013,0.877,43,59771094,82.6902439,35370.27526
+Jamaica,JAM,Americas,Latin America and the Caribbean,2013,0.727,38,2773215,75.523,4976.848781
+Japan,JPN,Asia,Eastern Asia,2013,0.899,74,126984964,83.33195122,40454.44746
+Jordan,JOR,Asia,Western Asia,2013,0.737,45,7214832,73.883,3992.867107
+Kazakhstan,KAZ,Asia,Central Asia,2013,0.789,26,17099546,70.45,13890.63177
+Kenya,KEN,Africa,Sub-Saharan Africa,2013,0.546,27,43692881,65.651,1229.101069
+Kiribati,KIR,Oceania,Micronesia,2013,0.597,NA,108544,65.78,1705.56891
+Kuwait,KWT,Asia,Western Asia,2013,0.787,43,3593689,74.338,48399.80782
+Latvia,LVA,Europe,Northern Europe,2013,0.822,53,2011857,73.98292683,15032.28201
+Lebanon,LBN,Asia,Western Asia,2013,0.763,28,5286990,79.05,8807.901335
+Lesotho,LSO,Africa,Sub-Saharan Africa,2013,0.491,49,2083061,52.738,1192.998766
+Liberia,LBR,Africa,Sub-Saharan Africa,2013,0.426,38,4293692,61.066,715.5370459
+Libya,LBY,Africa,Northern Africa,2013,0.73,15,6265987,71.592,10571.85076
+Lithuania,LTU,Europe,Northern Europe,2013,0.841,57,2963810,73.91463415,15693.78673
+Luxembourg,LUX,Europe,Western Europe,2013,0.892,80,544885,81.8,113625.1329
+Madagascar,MDG,Africa,Sub-Saharan Africa,2013,0.509,28,22924557,64.713,461.7230722
+Malawi,MWI,Africa,Sub-Saharan Africa,2013,0.466,37,16190126,61.02,332.9210249
+Malaysia,MYS,Asia,South-eastern Asia,2013,0.783,50,29465372,74.797,10882.2891
+Maldives,MDV,Asia,Southern Asia,2013,0.693,NA,351111,76.571,8291.485295
+Mali,MLI,Africa,Sub-Saharan Africa,2013,0.43,28,16592097,56.556,803.8935757
+Malta,MLT,Europe,Southern Europe,2013,0.847,56,416747,81.74634146,23820.36341
+Mauritania,MRT,Africa,Sub-Saharan Africa,2013,0.509,30,3872684,62.711,1450.577949
+Mauritius,MUS,Africa,Sub-Saharan Africa,2013,0.769,52,1263560,74.01707317,9637.00265
+Mexico,MEX,Americas,Latin America and the Caribbean,2013,0.754,34,123740109,76.579,10400.56316
+Mongolia,MNG,Asia,Eastern Asia,2013,0.729,38,2859174,68.558,4385.379355
+Montenegro,MNE,Europe,Southern Europe,2013,0.803,44,624648,76.43,7186.431924
+Morocco,MAR,Africa,Northern Africa,2013,0.64,37,33452686,75.026,3111.762887
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2013,0.409,30,26467180,56.483,605.9856082
+Myanmar,MMR,Asia,South-eastern Asia,2013,0.547,21,52983829,66.066,1171.464477
+Namibia,NAM,Africa,Sub-Saharan Africa,2013,0.632,48,2346592,61.982,5490.041314
+Nepal,NPL,Asia,Southern Asia,2013,0.551,31,27834981,69.126,688.6172788
+Netherlands,NLD,Europe,Western Europe,2013,0.923,83,16809157,81.30487805,51574.48942
+New Zealand,NZL,Oceania,Australia and New Zealand,2013,0.91,91,4465276,81.40731707,42949.32684
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2013,0.636,28,5945646,74.608,1847.198049
+Niger,NER,Africa,Sub-Saharan Africa,2013,0.345,34,18358863,58.727,416.1401152
+Nigeria,NGA,Africa,Sub-Saharan Africa,2013,0.521,25,172816517,52.121,2996.964303
+Norway,NOR,Europe,Northern Europe,2013,0.945,86,5083450,81.75121951,103059.2482
+Oman,OMN,Asia,Western Asia,2013,0.796,47,3906912,76.358,21227.21235
+Pakistan,PAK,Asia,Southern Asia,2013,0.542,28,181192646,65.927,1272.441061
+Panama,PAN,Americas,Latin America and the Caribbean,2013,0.78,35,3805683,77.413,11879.75653
+Papua New Guinea,PNG,Oceania,Melanesia,2013,0.511,25,7308864,65.082,2800.169029
+Paraguay,PRY,Americas,Latin America and the Caribbean,2013,0.688,24,6465669,72.786,5967.656872
+Peru,PER,Americas,Latin America and the Caribbean,2013,0.735,38,30565461,74.298,6583.116248
+Philippines,PHL,Asia,South-eastern Asia,2013,0.676,36,97571676,68.68,2760.289146
+Poland,POL,Europe,Eastern Europe,2013,0.85,60,38618698,77,13780.19061
+Portugal,PRT,Europe,Southern Europe,2013,0.837,62,10459716,80.72195122,21618.73534
+Qatar,QAT,Asia,Western Asia,2013,0.854,68,2101288,77.739,88304.87958
+Romania,ROU,Europe,Eastern Europe,2013,0.797,43,19794163,75.06341463,9555.244217
+Rwanda,RWA,Africa,Sub-Saharan Africa,2013,0.488,53,11078095,65.598,688.8223493
+Samoa,WSM,Oceania,Polynesia,2013,0.701,NA,190390,74.206,4219.024862
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2013,0.562,42,182386,66.241,1619.528517
+Saudi Arabia,SAU,Asia,Western Asia,2013,0.841,46,30201051,74.066,24934.38614
+Senegal,SEN,Africa,Sub-Saharan Africa,2013,0.483,41,14221041,65.914,1342.758689
+Serbia,SRB,Europe,Southern Europe,2013,0.771,42,8937605,75.18536585,6353.826383
+Seychelles,SYC,Africa,Sub-Saharan Africa,2013,0.766,54,95215,73.1195122,14765.68233
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2013,0.426,30,6178859,50.401,710.8186998
+Singapore,SGP,Asia,South-eastern Asia,2013,0.922,86,5405009,82.24634146,56389.18178
+Slovenia,SVN,Europe,Southern Europe,2013,0.888,57,2064819,80.32195122,23357.9392
+Solomon Islands,SLB,Oceania,Melanesia,2013,0.512,NA,560685,69.771,2004.899972
+South Africa,ZAF,Africa,Sub-Saharan Africa,2013,0.66,42,53416609,59.83,6819.062302
+South Sudan,SSD,Africa,Sub-Saharan Africa,2013,0.421,14,11453810,55.294,1336.645256
+Spain,ESP,Europe,Southern Europe,2013,0.877,59,46455163,83.07804878,29211.77375
+Sri Lanka,LKA,Asia,Southern Asia,2013,0.76,37,20521959,74.741,3610.289363
+Sudan,SDN,Africa,Northern Africa,2013,0.485,11,38515095,63.712,1955.660799
+Suriname,SUR,Americas,Latin America and the Caribbean,2013,0.722,36,533450,70.976,9491.570453
+Sweden,SWE,Europe,Northern Europe,2013,0.906,89,9624247,81.95609756,60283.24522
+Switzerland,CHE,Europe,Western Europe,2013,0.936,85,8118719,82.79756098,85112.4644
+Tajikistan,TJK,Asia,Central Asia,2013,0.622,22,8111894,70.477,1040.137412
+Thailand,THA,Asia,South-eastern Asia,2013,0.737,35,67451422,74.678,6168.394881
+Timor-Leste,TLS,Asia,South-eastern Asia,2013,0.612,30,1129315,68.033,4770.315933
+Togo,TGO,Africa,Sub-Saharan Africa,2013,0.475,29,6928719,59.174,613.4402094
+Tonga,TON,Oceania,Polynesia,2013,0.716,NA,105139,72.588,4278.884567
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2013,0.778,38,1348240,70.28,19713.37929
+Tunisia,TUN,Africa,Northern Africa,2013,0.722,41,11005706,75.167,4199.084678
+Turkey,TUR,Asia,Western Asia,2013,0.759,50,76223639,74.977,12542.72093
+Turkmenistan,TKM,Asia,Central Asia,2013,0.683,17,5240088,67.375,7304.420525
+Uganda,UGA,Africa,Sub-Saharan Africa,2013,0.483,26,36573387,58.819,655.0495315
+Ukraine,UKR,Europe,Eastern Europe,2013,0.746,25,45165211,71.1595122,4029.715504
+United Arab Emirates,ARE,Asia,Western Asia,2013,0.832,69,9039978,76.798,43315.14149
+Uruguay,URY,Americas,Latin America and the Caribbean,2013,0.791,73,3407969,77.04,16881.20568
+Uzbekistan,UZB,Asia,Central Asia,2013,0.69,17,29033361,70.844,1907.551233
+Vanuatu,VUT,Oceania,Melanesia,2013,0.596,NA,253165,71.481,3167.343056
+Zambia,ZMB,Africa,Sub-Saharan Africa,2013,0.57,38,15246086,59.982,1850.793359
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2013,0.498,21,14898092,58.053,1268.126633
+Afghanistan,AFG,Asia,Southern Asia,2014,0.479,12,31627506,62.895,625.3395388
+Albania,ALB,Europe,Southern Europe,2014,0.762,33,2889676,77.963,4578.667934
+Algeria,DZA,Africa,Northern Africa,2014,0.743,36,38934334,75.641,5466.425778
+Angola,AGO,Africa,Sub-Saharan Africa,2014,0.531,19,24227524,60.858,5412.692348
+Argentina,ARG,Americas,Latin America and the Caribbean,2014,0.826,34,42980026,76.252,12245.25645
+Armenia,ARM,Asia,Western Asia,2014,0.741,37,3006154,74.255,3994.712355
+Australia,AUS,Oceania,Australia and New Zealand,2014,0.937,80,23622353,82.3,62327.55594
+Austria,AUT,Europe,Western Europe,2014,0.892,72,8516916,81.4902439,51704.54119
+Azerbaijan,AZE,Asia,Western Asia,2014,0.758,29,9629779,71.8,7891.313147
+Bahrain,BHR,Asia,Western Asia,2014,0.823,49,1361930,76.622,24983.37902
+Bangladesh,BGD,Asia,Southern Asia,2014,0.575,25,159077513,71.803,1084.56543
+Barbados,BRB,Americas,Latin America and the Caribbean,2014,0.794,74,283380,75.603,16261.79932
+Belarus,BLR,Europe,Eastern Europe,2014,0.798,31,9500422,72.97073171,8318.51269
+Belgium,BEL,Europe,Western Europe,2014,0.895,76,11226322,81.28780488,47351.97418
+Belize,BLZ,Americas,Latin America and the Caribbean,2014,0.706,NA,351706,70.027,4813.718033
+Benin,BEN,Africa,Sub-Saharan Africa,2014,0.481,39,10598482,60.373,943.686575
+Bhutan,BTN,Asia,Southern Asia,2014,0.604,65,765008,69.43,2522.794953
+Bosnia and Herzegovina,BIH,Europe,Southern Europe,2014,0.747,39,3817554,76.561,5204.243718
+Botswana,BWA,Africa,Sub-Saharan Africa,2014,0.698,63,2219937,64.78,7493.752924
+Brazil,BRA,Americas,Latin America and the Caribbean,2014,0.754,43,206077898,75.042,12026.61939
+Bulgaria,BGR,Europe,Eastern Europe,2014,0.792,43,7201308,74.46585366,7864.760672
+Burkina Faso,BFA,Africa,Sub-Saharan Africa,2014,0.399,38,17589198,59.457,703.8216565
+Burundi,BDI,Africa,Sub-Saharan Africa,2014,0.406,20,10816860,56.688,273.538285
+Cambodia,KHM,Asia,South-eastern Asia,2014,0.558,21,15328136,68.251,1093.762067
+Cameroon,CMR,Africa,Sub-Saharan Africa,2014,0.514,27,22773014,57.111,1571.182535
+Canada,CAN,Americas,Northern America,2014,0.919,81,35587793,81.95304878,50633.20882
+Central African Republic,CAF,Africa,Sub-Saharan Africa,2014,0.347,24,4804316,50.621,377.1321263
+Chad,TCD,Africa,Sub-Saharan Africa,2014,0.394,22,13587053,52.204,1025.998515
+Chile,CHL,Americas,Latin America and the Caribbean,2014,0.845,73,17762647,79.117,14794.31583
+China,CHN,Asia,Eastern Asia,2014,0.734,36,1369435670,75.932,7683.502613
+Colombia,COL,Americas,Latin America and the Caribbean,2014,0.724,37,47791393,74.022,7974.406373
+Comoros,COM,Africa,Sub-Saharan Africa,2014,0.498,26,769991,63.216,1511.826037
+Costa Rica,CRI,Americas,Latin America and the Caribbean,2014,0.775,54,4757606,79.44,10630.9979
+Croatia,HRV,Europe,Southern Europe,2014,0.823,48,4255853,77.47804878,13606.89344
+Cuba,CUB,Americas,Latin America and the Caribbean,2014,0.773,46,11379111,79.415,7050.493249
+Cyprus,CYP,Asia,Western Asia,2014,0.854,63,1153658,80.173,27400.80299
+Denmark,DNK,Europe,Northern Europe,2014,0.923,92,5646899,80.7,62548.98502
+Djibouti,DJI,Africa,Sub-Saharan Africa,2014,0.47,34,876174,62.006,1595.146365
+Dominica,DMA,Americas,Latin America and the Caribbean,2014,0.724,58,72341,NA,7193.668111
+Dominican Republic,DOM,Americas,Latin America and the Caribbean,2014,0.718,32,10405943,73.483,6348.837769
+Ecuador,ECU,Americas,Latin America and the Caribbean,2014,0.739,33,15902916,75.879,6396.630483
+El Salvador,SLV,Americas,Latin America and the Caribbean,2014,0.678,39,6107706,73.015,3595.790733
+Equatorial Guinea,GNQ,Africa,Sub-Saharan Africa,2014,0.582,NA,820885,57.18,19245.65151
+Eritrea,ERI,Africa,Sub-Saharan Africa,2014,0.418,18,5110444,64.174,NA
+Estonia,EST,Europe,Northern Europe,2014,0.863,69,1316203,77.03414634,19949.58138
+Ethiopia,ETH,Africa,Sub-Saharan Africa,2014,0.441,33,96958732,64.535,571.1622759
+Fiji,FJI,Oceania,Melanesia,2014,0.734,NA,886450,69.96,5061.397575
+Finland,FIN,Europe,Northern Europe,2014,0.893,89,5479660,81.1804878,49914.61864
+France,FRA,Europe,Western Europe,2014,0.894,69,64121249,82.67073171,43008.65257
+Gabon,GAB,Africa,Sub-Saharan Africa,2014,0.694,37,1687673,65.211,9692.182125
+Georgia,GEO,Asia,Western Asia,2014,0.768,52,4034774,72.951,4429.650075
+Germany,DEU,Europe,Western Europe,2014,0.924,79,80646262,81.0902439,48042.56343
+Ghana,GHA,Africa,Sub-Saharan Africa,2014,0.575,48,26786598,62.154,1987.983363
+Greece,GRC,Europe,Southern Europe,2014,0.865,43,11000777,81.38536585,21760.9798
+Grenada,GRD,Americas,Latin America and the Caribbean,2014,0.751,NA,106349,73.388,8569.926734
+Guatemala,GTM,Americas,Latin America and the Caribbean,2014,0.637,32,16015494,72.869,3687.763767
+Guinea,GIN,Africa,Sub-Saharan Africa,2014,0.414,25,12275527,58.846,743.5912878
+Guinea-Bissau,GNB,Africa,Sub-Saharan Africa,2014,0.421,19,1800513,56.598,610.4684902
+Guyana,GUY,Americas,Latin America and the Caribbean,2014,0.638,30,763893,66.425,4031.531939
+Haiti,HTI,Americas,Latin America and the Caribbean,2014,0.49,19,10572029,62.757,830.1138816
+Honduras,HND,Americas,Latin America and the Caribbean,2014,0.623,29,7961680,73.181,2242.707459
+Hungary,HUN,Europe,Eastern Europe,2014,0.834,54,9889540,75.76341463,14201.44883
+Iceland,ISL,Europe,Northern Europe,2014,0.919,79,327318,82.86097561,52855.14048
+India,IND,Asia,Southern Asia,2014,0.615,38,1295291543,68.021,1576.004018
+Indonesia,IDN,Asia,South-eastern Asia,2014,0.686,34,254454778,68.856,3491.595887
+Iraq,IRQ,Asia,Western Asia,2014,0.649,16,35273293,69.458,6703.074737
+Ireland,IRL,Europe,Northern Europe,2014,0.92,74,4675164,81.34878049,55412.9286
+Israel,ISR,Asia,Western Asia,2014,0.898,60,7939483,82.15365854,37539.95182
+Italy,ITA,Europe,Southern Europe,2014,0.881,43,59788667,83.0902439,35396.66572
+Jamaica,JAM,Americas,Latin America and the Caribbean,2014,0.729,38,2783301,75.689,4839.892104
+Japan,JPN,Asia,Eastern Asia,2014,0.902,76,126794564,83.58780488,38109.41211
+Jordan,JOR,Asia,Western Asia,2014,0.741,49,7416083,74.034,4066.940775
+Kazakhstan,KAZ,Asia,Central Asia,2014,0.793,29,17371621,71.62,12807.26069
+Kenya,KEN,Africa,Sub-Saharan Africa,2014,0.55,25,44863583,66.242,1335.123148
+Kiribati,KIR,Oceania,Micronesia,2014,0.586,NA,110470,65.949,1626.893872
+Kuwait,KWT,Asia,Western Asia,2014,0.799,44,3753121,74.458,42996.31522
+Latvia,LVA,Europe,Northern Europe,2014,0.828,55,1989354,74.12439024,15716.36907
+Lebanon,LBN,Asia,Western Asia,2014,0.763,27,5612096,79.231,8660.036928
+Lesotho,LSO,Africa,Sub-Saharan Africa,2014,0.495,49,2109197,53.268,1218.466106
+Liberia,LBR,Africa,Sub-Saharan Africa,2014,0.427,37,4396554,61.527,716.0529087
+Libya,LBY,Africa,Northern Africa,2014,0.719,18,6258984,71.659,6631.529047
+Lithuania,LTU,Europe,Northern Europe,2014,0.846,58,2916798,74.51707317,16545.12267
+Luxembourg,LUX,Europe,Western Europe,2014,0.896,82,556573,82.22926829,119225.38
+Madagascar,MDG,Africa,Sub-Saharan Africa,2014,0.511,28,23571713,65.133,452.4631926
+Malawi,MWI,Africa,Sub-Saharan Africa,2014,0.473,33,16695253,61.932,354.3189898
+Malaysia,MYS,Asia,South-eastern Asia,2014,0.787,52,29901997,74.976,11183.72943
+Maldives,MDV,Asia,Southern Asia,2014,0.701,NA,357415,76.783,9056.65344
+Mali,MLI,Africa,Sub-Saharan Africa,2014,0.438,32,17086022,57.007,845.720641
+Malta,MLT,Europe,Southern Europe,2014,0.853,55,417723,81.94634146,25811.878
+Mauritania,MRT,Africa,Sub-Saharan Africa,2014,0.513,30,3969625,62.907,1326.668654
+Mauritius,MUS,Africa,Sub-Saharan Africa,2014,0.779,54,1268567,74.19439024,10153.93822
+Mexico,MEX,Americas,Latin America and the Caribbean,2014,0.758,35,125385833,76.753,10582.41053
+Mongolia,MNG,Asia,Eastern Asia,2014,0.733,39,2909871,68.847,4181.583313
+Montenegro,MNE,Europe,Southern Europe,2014,0.804,42,625292,76.712,7378.341022
+Morocco,MAR,Africa,Northern Africa,2014,0.645,39,33921203,75.309,3154.513484
+Mozambique,MOZ,Africa,Sub-Saharan Africa,2014,0.414,31,27216276,57.099,623.2867539
+Myanmar,MMR,Asia,South-eastern Asia,2014,0.552,21,53437159,66.285,1260.418504
+Namibia,NAM,Africa,Sub-Saharan Africa,2014,0.637,49,2402858,62.981,5392.712421
+Nepal,NPL,Asia,Southern Asia,2014,0.555,29,28174724,69.511,706.2386977
+Netherlands,NLD,Europe,Western Europe,2014,0.923,83,16868020,81.70731707,52157.40687
+New Zealand,NZL,Oceania,Australia and New Zealand,2014,0.913,91,4495482,81.40487805,44560.64037
+Nicaragua,NIC,Americas,Latin America and the Caribbean,2014,0.642,28,6013913,74.884,1975.464707
+Niger,NER,Africa,Sub-Saharan Africa,2014,0.351,35,19113728,59.228,429.7909578
+Nigeria,NGA,Africa,Sub-Saharan Africa,2014,0.525,27,177475986,52.549,3221.678116
+Norway,NOR,Europe,Northern Europe,2014,0.948,86,5147970,82.1,97199.9191
+Oman,OMN,Asia,Western Asia,2014,0.795,45,4236057,76.578,20469.13865
+Pakistan,PAK,Asia,Southern Asia,2014,0.548,29,185044286,66.139,1316.980966
+Panama,PAN,Americas,Latin America and the Caribbean,2014,0.785,37,3867535,77.61,12787.3062
+Papua New Guinea,PNG,Oceania,Melanesia,2014,0.515,25,7463577,65.23,2973.270549
+Paraguay,PRY,Americas,Latin America and the Caribbean,2014,0.692,24,6552518,72.913,6146.664055
+Peru,PER,Americas,Latin America and the Caribbean,2014,0.737,38,30973148,74.518,6492.053208
+Philippines,PHL,Asia,South-eastern Asia,2014,0.679,38,99138690,68.813,2842.938353
+Poland,POL,Europe,Eastern Europe,2014,0.852,61,38619974,77.60243902,14345.18606
+Portugal,PRT,Europe,Southern Europe,2014,0.841,63,10402343,81.12195122,22077.53613
+Qatar,QAT,Asia,Western Asia,2014,0.855,69,2172065,77.888,86852.71019
+Romania,ROU,Europe,Eastern Europe,2014,0.798,43,19651554,74.96097561,10026.97358
+Rwanda,RWA,Africa,Sub-Saharan Africa,2014,0.493,49,11341544,66.188,706.5967098
+Samoa,WSM,Oceania,Polynesia,2014,0.702,52,191845,74.504,4187.230599
+Sao Tome and Principe,STP,Africa,Sub-Saharan Africa,2014,0.565,42,186342,66.361,1824.379217
+Saudi Arabia,SAU,Asia,Western Asia,2014,0.845,49,30886545,74.234,24575.40304
+Senegal,SEN,Africa,Sub-Saharan Africa,2014,0.491,43,14672557,66.376,1359.189351
+Serbia,SRB,Europe,Southern Europe,2014,0.775,41,8892815,75.33658537,6200.173221
+Seychelles,SYC,Africa,Sub-Saharan Africa,2014,0.781,55,95868,73.22926829,14700.36313
+Sierra Leone,SLE,Africa,Sub-Saharan Africa,2014,0.431,31,6315627,50.951,708.4394757
+Singapore,SGP,Asia,South-eastern Asia,2014,0.924,84,5506586,82.49512195,56957.07857
+Slovenia,SVN,Europe,Southern Europe,2014,0.888,58,2066068,81.07804878,24202.43084
+Solomon Islands,SLB,Oceania,Melanesia,2014,0.514,NA,572171,70.113,2036.942056
+South Africa,ZAF,Africa,Sub-Saharan Africa,2014,0.665,44,53969054,60.993,6429.02395
+South Sudan,SSD,Africa,Sub-Saharan Africa,2014,0.421,15,11911184,55.817,1309.487381
+Spain,ESP,Europe,Southern Europe,2014,0.882,60,46259716,83.22926829,29623.16445
+Sri Lanka,LKA,Asia,Southern Asia,2014,0.764,38,20618991,74.906,3820.54065
+Sudan,SDN,Africa,Northern Africa,2014,0.488,11,39350274,64.002,2176.898029
+Suriname,SUR,Americas,Latin America and the Caribbean,2014,0.723,36,538248,71.138,9554.562288
+Sweden,SWE,Europe,Northern Europe,2014,0.909,87,9703247,82.25365854,59180.19898
+Switzerland,CHE,Europe,Western Europe,2014,0.938,86,8211383,83.19756098,86605.56338
+Tajikistan,TJK,Asia,Central Asia,2014,0.625,23,8295840,70.69,1104.459019
+Thailand,THA,Asia,South-eastern Asia,2014,0.738,38,67725979,74.895,5953.793928
+Timor-Leste,TLS,Asia,South-eastern Asia,2014,0.603,28,1157360,68.285,3335.548567
+Togo,TGO,Africa,Sub-Saharan Africa,2014,0.484,29,7115163,59.601,632.0313104
+Tonga,TON,Oceania,Polynesia,2014,0.718,NA,105586,72.732,4196.470593
+Trinidad and Tobago,TTO,Americas,Latin America and the Caribbean,2014,0.779,38,1354483,70.426,20081.52191
+Tunisia,TUN,Africa,Northern Africa,2014,0.723,40,11130154,75.335,4274.292832
+Turkey,TUR,Asia,Western Asia,2014,0.764,45,77523788,75.239,12127.46146
+Turkmenistan,TKM,Asia,Central Asia,2014,0.688,17,5307188,67.552,7962.365824
+Uganda,UGA,Africa,Sub-Saharan Africa,2014,0.488,26,37782971,59.224,702.795104
+Ukraine,UKR,Europe,Eastern Europe,2014,0.748,26,45002497,71.18658537,3104.658296
+United Arab Emirates,ARE,Asia,Western Asia,2014,0.836,70,9086139,76.948,44443.06151
+Uruguay,URY,Americas,Latin America and the Caribbean,2014,0.794,73,3419516,77.19,16737.89827
+Uzbekistan,UZB,Asia,Central Asia,2014,0.697,18,29469913,71.039,2050.448414
+Vanuatu,VUT,Oceania,Melanesia,2014,0.598,NA,258883,71.709,3148.365103
+Zambia,ZMB,Africa,Sub-Saharan Africa,2014,0.576,38,15721343,60.775,1738.088202
+Zimbabwe,ZWE,Africa,Sub-Saharan Africa,2014,0.507,21,15245855,59.36,1264.983826
