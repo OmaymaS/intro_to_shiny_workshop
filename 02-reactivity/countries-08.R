@@ -45,16 +45,19 @@ ui <- fluidPage(
       
       ## set alpha level for points in the scatter plot ----------------
       sliderInput(inputId = "alpha_level", label = "alpha",
-                  min = 0, max = 1, value = 0.8),
+                  min = 0, max = 1, value = 0.8)
       
-      ## add checkbox to show/hide data table -------------------
-      checkboxInput(inputId = "show_table", label = "Show table",
-                    value = FALSE)
+      
     ),
     
     ## Show output in main panel -----------------------------------------------
     mainPanel(
       plotlyOutput(outputId = "countries_scatter"),
+      
+      ## checkbox to show/hide data table -------------------
+      checkboxInput(inputId = "show_table", label = "Show table",
+                    value = FALSE),
+      
       DT::dataTableOutput(outputId = "countries_table")
     )
   )
@@ -77,6 +80,7 @@ server <- function(input, output) {
       geom_point(alpha = input$alpha_level)+
       guides(size = FALSE)+
       theme_minimal()
+      ## ..... add title based on selected year
     
     ggplotly(p_scatter)
   })

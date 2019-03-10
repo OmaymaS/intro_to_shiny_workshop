@@ -24,8 +24,8 @@ ui <- dashboardPage(
   ## Body
   dashboardBody(
     
-      ## title about the content
-      h2("Twitter #rstats hashtag activities"),
+    ## title about the content
+    h2("Twitter #rstats hashtag activities"),
     
     tabItems(
       

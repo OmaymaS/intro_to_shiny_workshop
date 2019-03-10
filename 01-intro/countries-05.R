@@ -40,7 +40,8 @@ ui <- fluidPage(
       sliderInput(inputId = "alpha_level", label = "alpha",
                   min = 0, max = 1, value = 0.8)
       
-      ## add checkbox to show/hide data table -------------------
+      ## ADD checkbox to show/hide data table -------------------
+      ## ......
       
     ),
     

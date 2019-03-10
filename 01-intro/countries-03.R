@@ -36,7 +36,8 @@ ui <- fluidPage(
                   choices = c("population", "life_exp", "gdp_per_capita"),
                   selected = "population")
       
-      ## set alpha level for points in the scatter plot ----------------
+      ## ADD sliderInput to set alpha level for points in the scatter plot -----
+      ## sliderInput(.....)
       
     ),
     
@@ -56,8 +57,8 @@ server <- function(input, output) {
     ggplot(data = countries_data_2011,
            aes_string(x = input$x_axis, y = input$y_axis,
                       color = "continent",
-                      size = input$point_size))+
-      geom_point()+
+                      size = input$point_size))+ 
+      geom_point()+ ##ADD alpha 
       theme_minimal()
   })
 }

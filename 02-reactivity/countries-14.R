@@ -29,6 +29,9 @@ ui <- fluidPage(
                   choices = unique(countries_data$year),
                   selected = 2011),
       
+      ## add button to save data -----------------------
+      ## actionButton(.......)
+      
       ## seperate sections ---------
       hr(),
       
@@ -81,6 +84,9 @@ server <- function(input, output) {
       filter(year == input$year)
   })
   
+  ## write data to csv when save_button is clicked ------------
+  ## observeEvent(.......)
+  
   ## calculate summaries per continent -----------------
   countries_summary <- reactive({
     countries_subset() %>%
@@ -91,9 +97,9 @@ server <- function(input, output) {
   
   ## create scatter plot ----------------------------------
   output$countries_scatter <- renderPlotly({
-  ## add code to use input$plot_button to trigger updating the plot
-  ## ......
+    input$plot_button
     
+    isolate({
       p_scatter <- ggplot(data = countries_subset(),
                           aes_string(x = input$x_axis, y = input$y_axis,
                                      color = "continent",
@@ -103,6 +109,7 @@ server <- function(input, output) {
         guides(size = FALSE)+
         labs(title = input$year)+
         theme_minimal()
+    })
     
     ggplotly(p_scatter)
   })

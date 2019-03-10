@@ -62,11 +62,19 @@ ui <- fluidPage(
 ## SERVER ######################################################################
 server <- function(input, output) {
   
-  ## filter data baed on the selected values -------------
+  ## filter data baes on the selected values -------------
   countries_subset <- reactive({
     countries_data %>% 
       filter(year == input$year)
   })
+  
+  ## calculate summaries per continent -----------------
+  # using countries_subset:
+  # - calculate median gdp_per_capita and median life_exp per continent 
+  # - assign to countries_summary
+  # - display countries_summary in the countries_table datatable
+  
+  ## countries_summary <- ............
   
   ## create scatter plot ----------------------------------
   output$countries_scatter <- renderPlotly({
@@ -77,8 +85,8 @@ server <- function(input, output) {
                                    label = "country"))+
       geom_point(alpha = input$alpha_level)+
       guides(size = FALSE)+
-      theme_minimal()
-      ## ..... add title based on selected year
+      theme_minimal()+
+      labs(title = input$year)
     
     ggplotly(p_scatter)
   })

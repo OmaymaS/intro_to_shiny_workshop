@@ -21,10 +21,22 @@ ui <- fluidPage(
     ## define inputs in sidebar -------------------------------
     sidebarPanel(
       
+      # Subtitle
+      h4("Data"),
+      
       ## select variable for year ---------------------------
       selectInput(inputId = "year", label = "Year",
                   choices = unique(countries_data$year),
                   selected = 2011),
+      
+      ## add button to trigger filtering the data ------------
+      ## actionButton(.....),
+      
+      ## seperate sections ---------
+      hr(),
+      
+      # Subtitle
+      h4("Plot"),
       
       ## select variable for scatter plot x-axis --------------
       selectInput(inputId = "x_axis", label = "X axis",
@@ -62,16 +74,19 @@ ui <- fluidPage(
 ## SERVER ######################################################################
 server <- function(input, output) {
   
-  ## filter data baes on the selected values -------------
+  ## filter data based on the selected values -------------
+  
+  # - convert countries_subset to eventReactive() instead of reactive()
+  # - make the eventReactive() triggered by an action button added in the UI
   countries_subset <- reactive({
-    countries_data %>% 
+    countries_data %>%  
       filter(year == input$year)
   })
   
   ## calculate summaries per continent -----------------
   countries_summary <- reactive({
     countries_subset() %>%
-      group_by(continent) %>% 
+      group_by_(continent) %>% 
       summarise(gdp_median = median(gdp_per_capita, na.rm = TRUE),
                 life_exp_median = median(life_exp, na.rm = TRUE))
   })
@@ -83,10 +98,9 @@ server <- function(input, output) {
                                    color = "continent",
                                    size = input$point_size,
                                    label = "country"))+
-      geom_point(alpha = input$alpha_level)+ ## isolate alpha_level and notice the effect
+      geom_point(alpha = input$alpha_level)+
       guides(size = FALSE)+
-      theme_minimal()+
-      labs(title = input$year)
+      theme_minimal()
     
     ggplotly(p_scatter)
   })

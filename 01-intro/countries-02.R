@@ -31,7 +31,9 @@ ui <- fluidPage(
                   choices = numeric_columns,
                   selected = "corruption_perception_index")
       
-      ## select variable for point size in the scatter plot ---------------
+      ## ADD select variable for point size in the scatter plot ---------------
+      ## choices "population", "life_exp", "gdp_per_capita"
+      ## ....................
 
     ),
     
@@ -50,7 +52,7 @@ server <- function(input, output) {
   output$countries_scatter <- renderPlot({
     ggplot(data = countries_data_2011,
            aes_string(x = input$x_axis, y = input$y_axis,
-                      color = "continent" ## add size .....
+                      color = "continent" ## ADD size .....
                       ))+
       geom_point()+
       theme_minimal()

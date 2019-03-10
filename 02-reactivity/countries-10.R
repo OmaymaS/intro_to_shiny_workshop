@@ -69,11 +69,12 @@ server <- function(input, output) {
   })
   
   ## calculate summaries per continent -----------------
-  ## - calculate median gdp_per_capita and median life_exp per continent 
-  ## - assign to countries_summary
-  ## - display countries_summary in the countries_table datatable
-  
-  ## countries_summary <- ............
+  countries_summary <- reactive({
+    countries_subset() %>%
+      group_by(continent) %>% 
+      summarise(gdp_median = median(gdp_per_capita, na.rm = TRUE),
+                life_exp_median = median(life_exp, na.rm = TRUE))
+  })
   
   ## create scatter plot ----------------------------------
   output$countries_scatter <- renderPlotly({
@@ -82,7 +83,7 @@ server <- function(input, output) {
                                    color = "continent",
                                    size = input$point_size,
                                    label = "country"))+
-      geom_point(alpha = input$alpha_level)+
+      geom_point(alpha = input$alpha_level)+ ## isolate alpha_level and notice the effect
       guides(size = FALSE)+
       theme_minimal()+
       labs(title = input$year)
@@ -93,7 +94,7 @@ server <- function(input, output) {
   ## create data table -------------------------------------
   output$countries_table <- DT::renderDataTable({
     if(input$show_table){
-      DT::datatable(countries_subset()[, 1:7], rownames = FALSE)
+      DT::datatable(countries_summary(), rownames = FALSE)
     }
   })
 }

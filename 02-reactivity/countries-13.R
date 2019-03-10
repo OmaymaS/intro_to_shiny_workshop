@@ -29,12 +29,8 @@ ui <- fluidPage(
                   choices = unique(countries_data$year),
                   selected = 2011),
       
-      ## add button to trigger filtering the data  -----------------------
-      actionButton(inputId = "filter_button", 
-                   label = "Subset Data"),
-      
       ## seperate sections ---------
-      br(), hr(),
+      hr(),
       
       # Subtitle
       h4("Plot"),
@@ -56,7 +52,11 @@ ui <- fluidPage(
       
       ## set alpha level for points in the scatter plot ----------------
       sliderInput(inputId = "alpha_level", label = "alpha",
-                  min = 0, max = 1, value = 0.8)
+                  min = 0, max = 1, value = 0.8),
+      
+      ## add button to trigger plotting -----------------------
+      actionButton(inputId = "plot_button", 
+                   label = "Update Plot")
     ),
     
     ## Show output in main panel -----------------------------------------------
@@ -76,11 +76,10 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   ## filter data based on the selected values -------------
-  countries_subset <- eventReactive(
-    input$filter_button, {
-      countries_data %>% 
-        filter(year == input$year)
-    }, ignoreNULL = FALSE)
+  countries_subset <- reactive({
+    countries_data %>% 
+      filter(year == input$year)
+  })
   
   ## calculate summaries per continent -----------------
   countries_summary <- reactive({
@@ -92,14 +91,18 @@ server <- function(input, output) {
   
   ## create scatter plot ----------------------------------
   output$countries_scatter <- renderPlotly({
-    p_scatter <- ggplot(data = countries_subset(),
-                        aes_string(x = input$x_axis, y = input$y_axis,
-                                   color = "continent",
-                                   size = input$point_size,
-                                   label = "country"))+
-      geom_point(alpha = input$alpha_level)+
-      guides(size = FALSE)+
-      theme_minimal()
+  ## use input$plot_button to trigger updating the plot
+  ## ......
+    
+      p_scatter <- ggplot(data = countries_subset(),
+                          aes_string(x = input$x_axis, y = input$y_axis,
+                                     color = "continent",
+                                     size = input$point_size,
+                                     label = "country"))+
+        geom_point(alpha = input$alpha_level)+
+        guides(size = FALSE)+
+        labs(title = input$year)+
+        theme_minimal()
     
     ggplotly(p_scatter)
   })

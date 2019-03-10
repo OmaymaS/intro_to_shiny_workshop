@@ -1,6 +1,7 @@
 ## load packages ---------------------------------------------------------------
 library(shiny)
 library(tidyverse)
+library(plotly)
 
 ## read data -------------------------------------------------------------------
 countries_data <- read_csv("data/countries_1998_2011.csv")
@@ -50,7 +51,7 @@ ui <- fluidPage(
     
     ## Show output in main panel -----------------------------------------------
     mainPanel(
-      plotOutput(outputId = "countries_scatter"),
+      plotlyOutput(outputId = "countries_scatter"),
       DT::dataTableOutput(outputId = "countries_table")
     )
   )
@@ -60,14 +61,17 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   ## create scatter plot ----------------------------------
-  output$countries_scatter <- renderPlot({
-    ggplot(data = countries_data_2011,
-           aes_string(x = input$x_axis, y = input$y_axis,
-                      color = "continent",
-                      size = input$point_size))+
+  output$countries_scatter <- renderPlotly({
+    p_scatter <- ggplot(data = countries_data_2011,
+                        aes_string(x = input$x_axis, y = input$y_axis,
+                                   color = "continent",
+                                   size = input$point_size,
+                                   label = "country"))+
       geom_point(alpha = input$alpha_level)+
-      theme_minimal()+
-      ggtitle(glue::glue("{input$y_axis} Vs {input$x_axis} in 2011"))
+      guides(size = FALSE)+
+      theme_minimal()
+    
+    ggplotly(p_scatter)
   })
   
   ## create data table -------------------------------------

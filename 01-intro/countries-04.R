@@ -48,6 +48,7 @@ ui <- fluidPage(
       plotOutput(outputId = "countries_scatter")
       
       ## show data table
+      ## .......
     )
   )
 )
@@ -66,6 +67,7 @@ server <- function(input, output) {
   })
   
   ## create data table -------------------------------------
+  ## ......
 }
 
 ## Run the application #########################################################

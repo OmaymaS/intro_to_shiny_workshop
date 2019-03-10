@@ -41,7 +41,7 @@ ui <- fluidPage(
       sliderInput(inputId = "alpha_level", label = "alpha",
                   min = 0, max = 1, value = 0.8),
       
-      ## add checkbox to show/hide data table -------------------
+      ## checkbox to show/hide data table -------------------
       checkboxInput(inputId = "show_table", label = "Show table",
                     value = FALSE)
     ),
@@ -65,7 +65,6 @@ server <- function(input, output) {
                       size = input$point_size))+
       geom_point(alpha = input$alpha_level)+
       theme_minimal()
-      ## add title using ggtitle() or labs()
   })
   
   ## create data table -------------------------------------

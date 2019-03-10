@@ -30,10 +30,11 @@ ui <- fluidPage(
                   selected = 2011),
       
       ## add button to save data -----------------------
-      ## actionButton(.......)
+      actionButton(inputId = "save_button", 
+                   label = "Save Data"),
       
       ## seperate sections ---------
-      hr(),
+      br(), hr(),
       
       # Subtitle
       h4("Plot"),
@@ -85,7 +86,11 @@ server <- function(input, output) {
   })
   
   ## write data to csv when save_button is clicked ------------
-  ## observeEvent(.......)
+  observeEvent(
+    input$save_button, {
+      file_path <- glue::glue("data/countries_subset_{input$year}.csv")
+      write_csv(countries_subset(), file_path)
+    })
   
   ## calculate summaries per continent -----------------
   countries_summary <- reactive({

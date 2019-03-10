@@ -14,7 +14,7 @@ numeric_columns <- c("human_development_index", "corruption_perception_index",
 ## UI ##########################################################################
 ui <- fluidPage(
   ## add theme using from shinythemes --------------
-  ## .........
+  shinythemes::themeSelector(),
   
   ## application title
   titlePanel("Countries Explorer"),

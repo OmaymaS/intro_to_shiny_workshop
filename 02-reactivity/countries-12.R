@@ -29,11 +29,12 @@ ui <- fluidPage(
                   choices = unique(countries_data$year),
                   selected = 2011),
       
-      ## add button to trigger filtering the data ------------
-      ## actionButton(.....),
+      ## add button to trigger filtering the data  -----------------------
+      actionButton(inputId = "filter_button", 
+                   label = "Subset Data"),
       
       ## seperate sections ---------
-      hr(),
+      br(), hr(),
       
       # Subtitle
       h4("Plot"),
@@ -75,17 +76,16 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   ## filter data based on the selected values -------------
-  ## - convert countries_subset to eventReactive() instead of reactive()
-  ## - make the eventReactive() triggered by an action button added in the UI
-  countries_subset <- reactive({
-    countries_data %>%  
-      filter(year == input$year)
-  })
+  countries_subset <- eventReactive(
+    input$filter_button, {
+      countries_data %>% 
+        filter(year == input$year)
+    }, ignoreNULL = FALSE)
   
   ## calculate summaries per continent -----------------
   countries_summary <- reactive({
     countries_subset() %>%
-      group_by_(continent) %>% 
+      group_by(continent) %>% 
       summarise(gdp_median = median(gdp_per_capita, na.rm = TRUE),
                 life_exp_median = median(life_exp, na.rm = TRUE))
   })

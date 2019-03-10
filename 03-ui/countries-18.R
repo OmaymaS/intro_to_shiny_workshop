@@ -67,10 +67,9 @@ ui <- fluidPage(
                   tabPanel(title = "Plot",
                            plotlyOutput(outputId = "countries_scatter")),
                   tabPanel(title = "Data",
-                           DT::dataTableOutput(outputId = "countries_table")
+                           DT::dataTableOutput(outputId = "countries_table"))
                   ## add one more tabPandel with help text or more info...
                   ## ......
-                           )
       )
       
     )
