@@ -30,7 +30,7 @@ ui <- fluidPage(
                   selected = 2011),
       
       ## seperate sections ---------
-      br(), hr(),
+      hr(),
       
       # Subtitle
       h4("Plot"),
@@ -56,11 +56,7 @@ ui <- fluidPage(
       
       ## add button to trigger plotting -----------------------
       actionButton(inputId = "plot_button", 
-                   label = "Update Plot"),
-      
-      ## add checkbox to show/hide data table -------------------
-      checkboxInput(inputId = "show_table", label = "Show table",
-                    value = FALSE)
+                   label = "Update Plot")
     ),
     
     ## Show output in main panel -----------------------------------------------

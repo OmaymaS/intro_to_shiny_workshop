@@ -69,8 +69,7 @@ server <- function(input, output) {
                                    label = "country"))+
       geom_point(alpha = input$alpha_level)+
       guides(size = FALSE)+
-      theme_minimal()+
-      ggtitle(glue::glue("{input$y_axis} Vs {input$x_axis} in 2011"))
+      theme_minimal()
     
     ggplotly(p_scatter)
   })

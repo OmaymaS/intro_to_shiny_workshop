@@ -23,7 +23,8 @@ ui <- fluidPage(
       
       ## select variable for scatter plot x-axis --------------
       selectInput(inputId = "x_axis", label = "X axis",
-                  choices = numeric_columns,
+                  choices = c("human_development_index", "corruption_perception_index",
+                              "population", "life_exp", "gdp_per_capita"),
                   selected = "human_development_index"),
       
       ## select variable for scatter plot y-axis ---------------

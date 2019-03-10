@@ -43,11 +43,7 @@ ui <- fluidPage(
       
       ## set alpha level for points in the scatter plot ----------------
       sliderInput(inputId = "alpha_level", label = "alpha",
-                  min = 0, max = 1, value = 0.8),
-      
-      ## add checkbox to show/hide data table -------------------
-      checkboxInput(inputId = "show_table", label = "Show table",
-                    value = FALSE)
+                  min = 0, max = 1, value = 0.8)
     ),
     
     ## Show output in main panel -----------------------------------------------

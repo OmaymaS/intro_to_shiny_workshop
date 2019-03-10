@@ -33,8 +33,8 @@ ui <- fluidPage(
       
       ## select variable for point size in the scatter plot ---------------
       selectInput(inputId = "point_size", label = "Size",
-                  choices = c("NULL", "population", "life_exp", "gdp_per_capita"),
-                  selected = NULL)
+                  choices = c("population", "life_exp", "gdp_per_capita"),
+                  selected = "population")
       
       ## set alpha level for points in the scatter plot ----------------
       

@@ -154,7 +154,7 @@ server <- function(input, output) {
   ## render plot: user tweets over time ------------------
   output$tweets_plots <- renderPlot({
     user_records() %>% 
-      ggplot(aes(x = year_mon, y = original_tweets))+
+      ggplot(aes(x = year_mon, y = all_tweets))+
       zoo::scale_x_yearmon(format="%b %Y")+
       geom_line()+
       geom_point()+
