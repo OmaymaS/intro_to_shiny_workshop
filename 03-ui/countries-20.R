@@ -63,23 +63,17 @@ ui <- fluidPage(
     mainPanel(
       
       ## show output in multiple tabs ----------------
-      tabsetPanel(
+      navlistPanel(
+        widths = c(3, 9),
         tabPanel(title = "Plot",
                  plotlyOutput(outputId = "countries_scatter")),
         tabPanel(title = "Data",
                  DT::dataTableOutput(outputId = "countries_table")),
-        tabPanel(title = "Video",
-                 ## EXTRA: add header h3 with the text "The Corruption Perceptions Index 2011"
-                 ## header 
-                 
-                 ## video
-                 tags$iframe(src = "https://www.youtube.com/embed/Udd2lJ2LZPs",
-                             allowfullscreen = NA,
-                             width = 560, height = 315)
-                 
-                 ## Add text with hyperlinks to the video https://www.youtube.com/embed/Udd2lJ2LZPs 
-                 ## and http://www.transparency.org
-                 )
+        tabPanel(title = "Info",
+                 tags$p("Corruption Perception Index data source:",
+                        tags$a("Transparency International",
+                               href = "http://www.transparency.org"))
+        )
       )
       
     )

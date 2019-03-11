@@ -69,17 +69,17 @@ ui <- fluidPage(
         tabPanel(title = "Data",
                  DT::dataTableOutput(outputId = "countries_table")),
         tabPanel(title = "Video",
-                 ## EXTRA: add header h3 with the text "Corruption Perceptions Index 2011"
                  ## header 
-                 
+                 tags$h3("Corruption Perceptions Index 2011"),
                  ## video
                  tags$iframe(src = "https://www.youtube.com/embed/Udd2lJ2LZPs",
                              allowfullscreen = NA,
-                             width = 560, height = 315)
-                 
-                 ## Add text with hyperlinks to the video https://www.youtube.com/embed/Udd2lJ2LZPs 
-                 ## and http://www.transparency.org
-                 )
+                             width = 560, height = 315),
+                 ## info about the video
+                 tags$p(tags$a("Video", href = "https://www.youtube.com/embed/Udd2lJ2LZPs"),
+                        "by",
+                        tags$a("Transparency International", href = "http://www.transparency.org"))
+        )
       )
       
     )

@@ -63,12 +63,17 @@ ui <- fluidPage(
     mainPanel(
       
       ## show output in multiple tabs ----------------
-      navlistPanel(
-        widths = c(3, 9),
-        tabPanel(title = "Plot",
-                 plotlyOutput(outputId = "countries_scatter")),
-        tabPanel(title = "Data",
-                 DT::dataTableOutput(outputId = "countries_table"))
+      ## USE navlistPanel() instead of tabsetPanel
+      tabsetPanel(type = "tabs",
+                  tabPanel(title = "Plot",
+                           plotlyOutput(outputId = "countries_scatter")),
+                  tabPanel(title = "Data",
+                           DT::dataTableOutput(outputId = "countries_table")),
+                  tabPanel(title = "Info",
+                           tags$p("Corruption Perception Index data source:",
+                                  tags$a("Transparency International",
+                                         href = "http://www.transparency.org"))
+                  )
       )
       
     )
