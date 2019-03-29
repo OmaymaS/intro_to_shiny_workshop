@@ -16,6 +16,8 @@ This repo includes the material for the "Building web applications with Shiny" w
 
 - Install R.
 - Install Rstudio.
-- Make sure the following packages are installed `("tidyverse", "shiny", "shinydashboard", "shinythemes", "plotly", "zoo")`
+- Make sure the following packages are installed `("tidyverse", "shiny", "shinydashboard", "shinythemes", "plotly", "zoo")`.
+- Clone this repo `git clone https://github.com/OmaymaS/intro_to_shiny_workshop.git`.
+- Make sure to `git pull origin master` the latest version before the workshop. 
 
 **NOTE:** For more details about R and Rstudio installation, check [Installing R and RStudio](https://moderndive.com/2-getting-started.html#installing-r-and-rstudio) section in [ModernDive](https://moderndive.com) book.
