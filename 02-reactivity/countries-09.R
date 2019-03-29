@@ -62,7 +62,7 @@ ui <- fluidPage(
 ## SERVER ######################################################################
 server <- function(input, output) {
   
-  ## filter data baes on the selected values -------------
+  ## filter data base on the selected values -------------
   countries_subset <- reactive({
     countries_data %>% 
       filter(year == input$year)
