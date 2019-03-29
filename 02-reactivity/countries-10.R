@@ -72,8 +72,8 @@ server <- function(input, output) {
   countries_summary <- reactive({
     countries_subset() %>%
       group_by(continent) %>% 
-      summarise(gdp_median = median(gdp_per_capita, na.rm = TRUE),
-                life_exp_median = median(life_exp, na.rm = TRUE))
+      summarise(gdp_median = median(gdp_per_capita, na.rm = TRUE) %>% round(2),
+                life_exp_median = median(life_exp, na.rm = TRUE) %>% round(2))
   })
   
   ## create scatter plot ----------------------------------

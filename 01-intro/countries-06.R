@@ -43,7 +43,7 @@ ui <- fluidPage(
       
       ## checkbox to show/hide data table -------------------
       checkboxInput(inputId = "show_table", label = "Show table",
-                    value = FALSE)
+                    value = TRUE)
     ),
     
     ## Show output in main panel -----------------------------------------------
