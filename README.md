@@ -21,3 +21,8 @@ This repo includes the material for the "Building web applications with Shiny" w
 - Make sure to `git pull origin master` the latest version before the workshop. 
 
 **NOTE:** For more details about R and Rstudio installation, check [Installing R and RStudio](https://moderndive.com/2-getting-started.html#installing-r-and-rstudio) section in [ModernDive](https://moderndive.com) book.
+
+
+
+##### TO DO
+- Add scripts producing the raw data used in the workshop.
