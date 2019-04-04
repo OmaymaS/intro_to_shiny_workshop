@@ -1,4 +1,4 @@
-## Slides Links
+## Google Slides Version Links
 
 - [Intro to Shiny](https://docs.google.com/presentation/d/1_gfZandQLNKRadgw_L0XtqYbCOqxqk5Uc1kMuGjI_7o/edit?usp=sharing)
 
