@@ -10,7 +10,7 @@ This repo includes the material for the "Building web applications with Shiny" w
 
 - Follow this [link](https://rstudio.cloud/spaces/13602/projects) link to access the SatRday Johannesburg Workspace on **Rstudio Cloud**.
 - Sign up or login using Github/google accounts.
-- Click on **[intro_to_shiny_workshop]** project.
+- Click on **[intro_to_shiny_workshop](https://rstudio.cloud/spaces/13602/join?access_code=a3lMW0BydKCvXRPn4RC95hrEB714qmKIe1WTUwxv)** project.
 
 #### Option 2 (Local)
 
